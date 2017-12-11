@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">蓝牙调试</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blue_debug_title">蓝牙调试</string>
+    <string name="title_device_list">设备列表</string>
+</resources>

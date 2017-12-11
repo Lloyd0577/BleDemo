@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    >
+    <Button 
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@null"
+        android:textColor="#ffffaa22"
+        android:textSize="32sp"/>
+
+    <ListView android:id="@+id/list_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+        
+    </ListView>
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connected_device"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/list_devices"
+        android:layout_marginTop="20dp"/>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connected_device"
+        android:id="@+id/re_send"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您要发送的数据"
+            android:id="@+id/label_send"/>
+        <EditText android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/label_send"
+            android:id="@+id/edit_send"
+            android:background="@mipmap/edit_back"
+            android:layout_marginLeft="10dp"/>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送"
+            android:textColor="#ffaaaa22"
+            android:id="@+id/btn_send"
+            android:background="@null"
+            android:layout_toRightOf="@id/edit_send"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label"
+        android:layout_below="@id/re_send"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="接收到的数据："/>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/received_message"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/label"
+       />
+    
+</RelativeLayout>

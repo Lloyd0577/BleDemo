@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-40"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/signal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:text="bb" />
+
+        <TextView
+            android:id="@+id/device_address"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="aa"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/go" />
+
+
+</RelativeLayout>

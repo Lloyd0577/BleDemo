@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/activity/BaseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/activity/BlueDebugActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/activity/DeviceListActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/activity/SplashActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/adapter/BtnsListAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/adapter/DeviceAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/entity/CmdBtnEntity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/entity/EntityDevice.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/service/BluetoothLeService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/utils/BluetoothController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/utils/ConstantUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/modou/bledemo/utils/ConvertUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_device_list.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_common_title.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/back.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/blue_logo.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/go.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icon_scan.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/save.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/settings.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/splash_img.jpg" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
